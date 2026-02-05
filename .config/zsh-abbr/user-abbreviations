@@ -1,0 +1,7 @@
+abbr "cl"="claude"
+abbr "g"="git"
+abbr "reload"="source ~/.zshrc"
+abbr "rl"="reload"
+abbr "wtc"="git worktree add"
+abbr "wtr"="cd \$(git worktree list | fzf --height 40% --layout=reverse --border --preview \"git -C {1} log --oneline --graph --color=always -n 10\" | cut -d \" \" -f1)"
+abbr gwt='gwt'

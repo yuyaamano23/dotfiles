@@ -1,0 +1,38 @@
+[user]
+	name = yuya amano
+	email = nba.chako.nba@icloud.com
+	signingkey = E47393E73A49772C
+
+[alias]
+        a = add
+        st = status
+	sh = stash
+        cm = commit -v
+        cmm = commit -m
+        cma = commit --amend
+        cmam = commit --amend -m
+	ae = --allow-empty
+        co = checkout
+        rs = restore
+        tree = log --decorate --oneline --graph
+        df = diff
+        dfc = diff --cached
+        br = branch
+        lg = log
+        lgo = log --oneline
+        sw = switch
+        swc = switch -c
+        rs = restore
+	      pl = pull
+        plp = pull --prune
+        ps = push
+        poH = push origin HEAD
+	      cl = clean -fdf
+        rbr = branch --sort=committerdate
+
+[init]
+        defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
