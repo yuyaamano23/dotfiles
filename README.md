@@ -33,7 +33,7 @@ macOS 向けの開発環境設定（WezTerm + Zsh + Neovim + VSCode）を管理�
 まず、必要なツールをインストールします。
 
 ```Bash
-$ brew install wezterm neovim sheldon starship eza bat fd ripgrep zoxide zsh-abbr
+brew install wezterm neovim sheldon starship eza bat fd ripgrep zoxide zsh-abbr
 ```
 
 2. Clone & Setup
